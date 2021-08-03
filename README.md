@@ -10,5 +10,4 @@ I've no idea why anyone would ever need this.
 One thing left doing I guess.
 Follow me on [twitch](https://www.twitch.tv/jappiejappie)?
 Leave a like.
-Subscribe.
 
