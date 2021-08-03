@@ -1,3 +1,5 @@
 #! /bin/sh
 
-echo success > $out
+$beforeBuildHook
+echo $SOME_ENV_VAR > $out
+$afterBuildHook

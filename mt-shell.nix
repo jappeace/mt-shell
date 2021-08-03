@@ -1,6 +1,10 @@
 derivation{
   name ="MT-shell";
   builder = ./builder.sh;
+  SOME_ENV_VAR="blah";
+
+  beforeBuildHook = "echo 'before'";
+  afterBuildHook = "echo 'after'";
   /*
 pill said my ssytem.
 https://nixos.org/guides/nix-pills/our-first-derivation.html#idm140737320481264
